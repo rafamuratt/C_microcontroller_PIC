@@ -3,10 +3,13 @@
  MURAT-TECH SORTER v.1.00
  By Rafa Muratt 03.2026
  Memory optimized 16x2 LCD HMI (4 bits mode) with full system control (core: PIC16F628A @4MHz, internal oscillator)
- 
  MURAT-TECH CHANNEL: https://www.youtube.com/@Murat-TechChannel-EN
  MURAT-TECH HUB: https://murat-tech.eu/
 
+ CAUTION, According with IDE: "Used ROM (program words): 2034 (99%)  Free ROM (program words): 14 (1%) Used ROM (program words): 2034 (99%)  Free ROM (program words): 14 (1%)". 
+ Means the practically the full memory is used.
+ The code is stable but be aware IN NOT USING IN CRITICAL APPLICATION. DO IT AT YOUR OWN RISK
+ 
  Runs continuosly a transport belt/ system, sorting objects in boxes with following conditions:
  - As long the emergency button is not active
  - As long objects are present and moving along the belt (not stuck)
@@ -30,18 +33,10 @@
  
  Note: ONE_SECOND definition has to be empirically fine tunned (to approx. 1 second) for correct 30s obj timeout
 
-
 IDE: MiKroC Pro for PIC
 
-Note: `MikroC_project`: Contains all IDE configuration and intermediate files.
-HMI Screens.png shows all HMI pages and possible states (9 in total)
+Note: `MikroC_project.zip`: Contains all IDE configuration and intermediate files.
+`HMI Screens.png` shows all HMI pages and possible states (9 in total)
 A copy of main C file is available in the main folder for easier visibility.
-
-
-CAUTION:
-According with IDE: 
-"Used ROM (program words): 2034 (99%)  Free ROM (program words): 14 (1%) Used ROM (program words): 2034 (99%)  Free ROM (program words): 14 (1%)". Means the full memory is used. 
-The code is stable but be aware IN NOT USING IN CRITICAL APPLICATION. DO IT AT YOUR OWN RISK
-
 
 Project detais on https://murat-tech.eu/
