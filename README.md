@@ -1,3 +1,4 @@
+# Industrial-Sorter-PIC-LCD-EEPROM
 **MURAT-TECH SORTER v.1.00**  
 
 This project utilizes the MikroC Pro for PIC LCD library in 4-bit mode to drive a 16x2 character display.  
