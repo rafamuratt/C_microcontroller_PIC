@@ -22,9 +22,8 @@ This project automates conveyor belt operations with the following features:
 * Communication: GPIO / Parallel Interface for LCD  
 
 📂 Project Structure 
-* /MikroC_project.zip: Contains all IDE configuration, source code, and intermediate files.  
-* /main.c: Copy of the main firmware for easy review.  
-* /HMI_Screens.png: Visual overview of all 9 possible HMI states/pages.  
+* /PIC_Source: The MikroC_project.zip contains all IDE files with compiled .hex + a screenshot of Fuse Bits and a copy of the main firmware for easy review.  
+* /Photos_Screenshots: Visual overview of all 9 possible HMI states/pages + project photo.  
 
 ⚙ Operational Parameters   
 * Sorting Time: from 0m 0s to 1m 59s. Default: 3s
