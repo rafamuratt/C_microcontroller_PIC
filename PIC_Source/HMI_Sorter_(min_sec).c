@@ -1,10 +1,15 @@
 /*
  MURAT-TECH SORTER v.1.00
- By Rafa Muratt 03.2026
- Memory optimized 16x2 LCD HMI (4 bits mode) with full system control (core: PIC16F628A @4MHz, internal oscillator)
- 
+ By B.Eng. Rafa Muratt 03.2026
  MURAT-TECH CHANNEL: https://www.youtube.com/@Murat-TechChannel-EN
  MURAT-TECH HUB: https://murat-tech.eu/
+ 
+ License
+ This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+ If this project is helpfull for your application, please consider to support:
+ https://www.paypal.com/donate/?hosted_button_id=8S8BJ9TT368VN
+ 
+ Memory optimized 16x2 LCD HMI (4 bits mode) with full system control (core: PIC16F628A @4MHz, internal oscillator)
 
  Runs continuosly a transport belt/ system, sorting objects in boxes with following conditions:
  - As long the emergency button is not active
